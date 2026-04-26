@@ -84,9 +84,9 @@ def test_similar_neigh_distrib(data: pd.DataFrame, ref_data: pd.DataFrame, kl_th
     assert np.isfinite(kl_div) and kl_div < kl_threshold
 
 
-########################################################
-# Implement here test_row_count and test_price_range   #
-########################################################
+
+# Implement test_row_count and test_price_range  
+
 
 def test_row_count(data: pd.DataFrame) -> None:
     """
